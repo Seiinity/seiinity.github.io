@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 32);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::before
+{
+    content: "";
+      background-image: url('img/bg.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.05;
+      filter: blur(5px);
+}
+
+div
+{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+h1, h3
+{
+    margin: auto;
+}
+
+#sub-heading
+{
+    font-weight: normal;
+    opacity: 70%;
+    margin-top: .5rem;
+}
+
+#flex-div
+{
+    height: fit-content;
+    position: absolute;
+    top:-20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
